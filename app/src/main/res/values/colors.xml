@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bg">#FFB6B605</color>
+    <color name="bg_workout">#b3bf04</color>
+    <color name="sButton">#e5be01</color>
+    <color name="pButton">#e5be01</color>
+    <color name="fButton">#e5be01</color>
+    <color name="sButtoneText">#FF4081</color>
+    <color name="fButtoneText">#FF4081</color>
+    <color name="pButtoneText">#FF4081</color>
+
+</resources>

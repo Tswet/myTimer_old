@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/bg" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chronText"
+            android:text="Подготовка"
+            android:layout_gravity="center"
+            android:textSize="50dp"/>
+
+
+
+        <TextView
+            android:layout_width="223dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/chronView"
+            android:text="00"
+            android:textSize="130dp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+
+            <!--<Chronometer
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/chronMin"
+                android:layout_gravity="center"
+                android:textSize="300px"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:layout_gravity="center"
+                    android:textSize="100dp"/>
+
+            <Chronometer
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/chronSec"
+                android:layout_gravity="center"
+                android:textSize="300px"/>-->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pauseButton"
+                android:text="@string/pause_button"
+                android:background="@color/pButton"
+                android:textColor="@color/pButtoneText"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:textSize="75px"/>
+
+
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_centerHorizontal="true" />-->
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/finishButton"
+                android:text="@string/finish_button"
+                android:background="@color/fButton"
+                android:textColor="@color/fButtoneText"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:textSize="75px"
+                android:layout_marginLeft="20dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

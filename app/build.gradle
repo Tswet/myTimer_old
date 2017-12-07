@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.3"
+    buildToolsVersion '25.0.0'
 
     defaultConfig {
         applicationId "com.gmail.mtswetkov.countdowntimer"
@@ -17,6 +17,15 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    buildscript {
+        repositories {
+            jcenter()
+        }
+
+        dependencies {
+//            classpath "com.android.tools.build:gradle:2.3.3"
+        }
+    }
 }
 
 dependencies {
@@ -24,3 +33,4 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.4.0'
 }
+//23.4.0
